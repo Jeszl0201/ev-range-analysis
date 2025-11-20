@@ -145,7 +145,7 @@ jupyter notebook notebook/Electric_Car_Specs_2025_GitHub.ipynb
 ## Conclusion
 This project demonstrates a complete data science workflow, from data preparation and exploratory analysis to machine learning modeling for EV range prediction. The Linear Regression model achieved a near-perfect predictive accuracy (𝐑² = 0.99), confirming that EV range is overwhelmingly a deterministic and predictable metric based on vehicle specifications. 
 
-### Actual vs Predicted EV Range
+**Actual vs Predicted EV Range**
 <div align="left">
   <img src="images/actual_vs_predicted_ev_range_linear_regression.png" width="50%">
 </div>
