@@ -1,7 +1,7 @@
 # EV Driving Range Prediction Capstone
 
 <div align="left">
-  <img src="images/EV_Car_Image.JPG" width="500">
+  <img src="images/EV_Car_Image.png" width="500">
 </div>
 
 ### Objective: 
