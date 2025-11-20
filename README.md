@@ -118,12 +118,12 @@ To reproduce the project locally:
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/Jeszl0201/ev-range-analysis.git
-cd ev-range-analysis
 ```
 
 2. Install required packages:
 
 ```bash
+cd ev-range-analysis
 pip install -r requirements.txt
 ```
 
