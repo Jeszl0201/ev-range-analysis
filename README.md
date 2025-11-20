@@ -1,7 +1,7 @@
 # EV Driving Range Prediction Capstone
 
 <div align="left">
-  <img src="images/EV_Car_Image.JPG" width="500">
+  <img src="images/EV_Car_Image.png" width="500">
 </div>
 
 ### Objective: 
@@ -84,19 +84,19 @@ The project follows an **end-to-end data science pipeline**:
 
 Interactive charts are saved as HTML files. Click the links below to explore them in your browser.
 
-**Range vs Battery Capacity (Efficiency indicated by color)**
-<div align="left">
-  <img src="images/range_vs_battery_efficiency.png" width="50%">
-</div>
-<a href="https://Jeszl0201.github.io/ev-range-analysis/range_vs_battery_efficiency.html" target="_blank">View Interactive Chart</a>
-
---
-
 **Range Distribution by Drivetrain**
 <div align="left">
   <img src="images/range_distribution_by_drivetrain.png" width="50%">
 </div>
 <a href="https://Jeszl0201.github.io/ev-range-analysis/range_distribution_by_drivetrain.html" target="_blank">View Interactive Chart</a>
+
+--
+
+**Range vs Battery Capacity (Efficiency indicated by color)**
+<div align="left">
+  <img src="images/range_vs_battery_efficiency.png" width="50%">
+</div>
+<a href="https://Jeszl0201.github.io/ev-range-analysis/range_vs_battery_efficiency.html" target="_blank">View Interactive Chart</a>
 
 ---
 
@@ -141,7 +141,18 @@ jupyter notebook notebook/Electric_Car_Specs_2025_GitHub.ipynb
 - Visualizations provide insights into feature relationships and model performance.
 
 ## Conclusion
-This project demonstrates a complete data science workflow, from data preparation to machine learning modeling. Future enhancements could include testing advanced models, using larger or real-time datasets, or deploying a web application for EV range prediction.
+This project demonstrates a complete data science workflow, from data preparation and exploratory analysis to machine learning modeling for EV range prediction. Both numeric features (e.g., battery capacity, weight, efficiency metrics) and categorical features (e.g., drivetrain, vehicle type) were analyzed to understand their impact on EV range. For instance, drivetrain plays a notable role: AWD vehicles generally have a lower typical range compared to FWD or RWD due to increased weight and energy consumption.
+
+Interestingly, exploratory analysis suggested that features like vehicle model and brand influence EV range. However, in predictive modeling, excluding these categorical features improved the model’s R² score, likely due to high cardinality and added noise. Conversely, features like efficiency, which showed low correlation individually, were critical for model performance, highlighting the difference between descriptive trends and predictive importance.
+
+Future enhancements could include:
+
+- Testing advanced machine learning models or ensemble techniques.
+- Incorporating larger or real-time datasets for improved accuracy.
+- Exploring more sophisticated encoding and interaction effects for categorical features.
+- Deploying a web application for interactive EV range predictions and visualization.
+
+Overall, this project provides a solid foundation for both insights into EV range determinants and predictive modeling, highlighting the importance of considering both numeric and categorical factors.
 
 
 
