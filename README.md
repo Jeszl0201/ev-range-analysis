@@ -88,7 +88,7 @@ Interactive charts are saved as HTML files. Click the links below to explore the
 <div align="left">
   <img src="images/range_vs_battery_efficiency.png" width="50%">
 </div>
-<a href="https://Jeszl0201.github.io/ev-range-analysis/range_vs_battery_efficiency.html" target="_blank">View Interactive Chart</a>
+<a href="https://Jeszl0201.github.io/ev-range-analysis/images/range_vs_battery_efficiency.html" target="_blank">View Interactive Chart</a>
 
 --
 
@@ -96,7 +96,7 @@ Interactive charts are saved as HTML files. Click the links below to explore the
 <div align="left">
   <img src="images/range_distribution_by_drivetrain.png" width="50%">
 </div>
-<a href="https://Jeszl0201.github.io/ev-range-analysis/range_distribution_by_drivetrain.html" target="_blank">View Interactive Chart</a>
+<a href="https://Jeszl0201.github.io/ev-range-analysis/images/range_distribution_by_drivetrain.html" target="_blank">View Interactive Chart</a>
 
 ---
 
@@ -131,7 +131,7 @@ pip install -r requirements.txt
 jupyter notebook notebook/Electric_Car_Specs_2025_GitHub.ipynb
 ```
 
-4. Run all cells in order to reproduce the analysis, plots, and results. Make sure the images folder exists for saving figures.
+4. Run all cells in order to reproduce the analysis, plots, and results.
 
 5. Optional: Interactive Plotly charts are saved as HTML files in the images folder. Open them in a browser to explore interactivity.
 
