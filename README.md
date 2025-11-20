@@ -92,10 +92,10 @@ Interactive charts are saved as HTML files. Click the links below to explore the
 
 **Range Distribution by Drivetrain**
 <div align="left">
-  <img src="images/range_distribution_by_drivetrain.png.png" width="50%">
+  <img src="images/range_distribution_by_drivetrain.png" width="50%">
 </div>
-[View Interactive Chart](https://github.com/Jeszl0201/ev-range-analysis/blob/main/images/range_by_drivetrain.html)
-
+[View Interactive Chart](https://github.com/Jeszl0201/ev-range-analysis/blob/main/images/range_distribution_by_drivetrain.html)
+https://yourusername.github.io/your-repo/range_by_drivetrain.html
 ---
 
 ## Machine Learning Models
