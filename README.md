@@ -47,7 +47,8 @@ The project follows an **end-to-end data science pipeline**:
 ## Visualizations
 Sample visualizations from the project:
 
-**Correlation Heatmap**  
+**Correlation Heatmap**
+<img src="images/correlation_heatmap_range.png" alt="Correlation Heatmap" width="50%">
 ![Correlation Heatmap](images/correlation_heatmap_range.png)
 
 **Top Features Influencing EV Range**  
