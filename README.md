@@ -26,7 +26,7 @@ The dataset includes specifications of various electric vehicles, with a focus o
 
 Data cleaning and preprocessing steps were applied to ensure quality and consistency.
 
-The full dataset can be accessed [here](https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025)).
+The full dataset can be accessed [here](https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025).
 
 ## Workflow
 The project follows an **end-to-end data science pipeline**:
