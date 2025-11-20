@@ -19,7 +19,8 @@ This capstone project aims to analyze electric vehicle data to determine which f
 ## Dataset
 The dataset includes specifications of various electric vehicles, with a focus on features that influence driving range:
 
-- **Battery capacity (kWh)** – directly affects maximum driving range  
+- **Battery capacity (kWh)** – directly affects maximum driving range
+- **Efficiency (Wh/km)** – energy consumption in watt-hours per kilometer; lower values indicate higher efficiency   
 - **Top speed (km/h)** – higher speeds generally consume more energy  
 - **Fast charging capability** – indicates battery and charging performance  
 - **Other performance and design features** – e.g., motor type, drivetrain  
