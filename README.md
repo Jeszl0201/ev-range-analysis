@@ -88,15 +88,17 @@ Interactive charts are saved as HTML files. Click the links below to explore the
 <div align="left">
   <img src="images/range_vs_battery_efficiency.png" width="50%">
 </div>
-[View Interactive Chart](https://github.com/Jeszl0201/ev-range-analysis/blob/main/images/range_vs_battery_efficiency.html)
+[View Interactive Chart](https://Jeszl0201.github.io/ev-range-analysis/range_vs_battery_efficiency.html)
+
+--
 
 **Range Distribution by Drivetrain**
 <div align="left">
   <img src="images/range_distribution_by_drivetrain.png" width="50%">
 </div>
-[View Interactive Chart](https://github.com/Jeszl0201/ev-range-analysis/blob/main/images/range_distribution_by_drivetrain.html)
-https://Jeszl0201.github.io/ev-range-analysis/range_distribution_by_drivetrain.html
-[--https://github.com/Jeszl0201/ev-range-analysis/tree/main/docs--]
+[View Interactive Chart](https://Jeszl0201.github.io/ev-range-analysis/range_distribution_by_drivetrain.html)
+
+
 ---
 
 ## Machine Learning Models
