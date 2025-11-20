@@ -88,7 +88,7 @@ Interactive charts are saved as HTML files. Click the links below to explore the
 <div align="left">
   <img src="images/range_vs_battery_efficiency.png" width="50%">
 </div>
-<a href="https://Jeszl0201.github.io/ev-range-analysis/images/range_vs_battery_efficiency.html" target="_blank">View Interactive Chart</a>
+<a href="https://Jeszl0201.github.io/ev-range-analysis/range_vs_battery_efficiency.html" target="_blank">View Interactive Chart</a>
 
 --
 
@@ -96,7 +96,7 @@ Interactive charts are saved as HTML files. Click the links below to explore the
 <div align="left">
   <img src="images/range_distribution_by_drivetrain.png" width="50%">
 </div>
-<a href="https://Jeszl0201.github.io/ev-range-analysis/images/range_distribution_by_drivetrain.html" target="_blank">View Interactive Chart</a>
+<a href="https://Jeszl0201.github.io/ev-range-analysis/range_distribution_by_drivetrain.html" target="_blank">View Interactive Chart</a>
 
 ---
 
