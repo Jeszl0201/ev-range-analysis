@@ -153,6 +153,8 @@ This project demonstrates a complete data science workflow, from data preparatio
 
 👆 (Open link in new tab)
 
+A derived efficiency feature, range per unit of battery capacity (km/kWh), calculated as Range ÷ Battery Capacity, was used for the interactive Plotly visualizations. Unlike the original Wh/km metric, where lower values indicate better efficiency, this derived feature is intuitive, with higher values representing more distance per unit of battery energy. This makes comparisons across vehicles easier to interpret and ensures the plot visually aligns with expected performance: higher values indicate better efficiency.
+
 Both numeric features (e.g., battery capacity, weight, efficiency metrics) and categorical features (e.g., drivetrain, vehicle type) were analyzed to understand their impact on EV range. For instance, drivetrain plays a notable role: AWD vehicles generally have a lower typical range compared to FWD or RWD due to increased weight and energy consumption.
 
 Interestingly, exploratory analysis suggested that features like vehicle model and brand influence EV range. However, in predictive modeling, excluding these categorical features improved the model’s R² score, likely due to high cardinality and added noise. Conversely, features like efficiency, which showed low correlation individually, were critical for model performance, highlighting the difference between descriptive trends and predictive importance.
