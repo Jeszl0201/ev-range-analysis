@@ -1,10 +1,17 @@
 # EV Driving Range Prediction Capstone
 
-Predicting electric vehicle (EV) driving range and identifying the key features that influence it using data analysis and machine learning.
-
 <div align="left">
   <img src="images/EV_Car_Image.JPG" width="500">
 </div>
+
+### Objective: 
+To identify which features most influence the driving range and to build a predictive model to estimate range based on key features.
+
+**Key Questions:**
+1. Which factors (battery capacity, effeciency, acceleration, etc.) most affect EV range?
+2. Can we predict the driving range of new EVs using these features?
+
+---
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -16,8 +23,15 @@ Predicting electric vehicle (EV) driving range and identifying the key features 
 7. [Results](#results)
 8. [Conclusion](#conclusion)
 
+---
+
 ## Project Overview
-This capstone project aims to analyze electric vehicle data to determine which features most affect driving range and to build predictive models to estimate range. The project covers the full data science workflow, from data cleaning and exploratory analysis to feature engineering, visualization, and machine learning modeling.
+
+This capstone project aims to analyze electric vehicle data to determine which features most affect driving range and to build predictive models to estimate range. 
+
+The project covers the full data science workflow, from data cleaning and exploratory analysis to feature engineering, visualization, and machine learning modeling.
+
+---
 
 ## Dataset
 The dataset includes specifications of various electric vehicles, with a focus on features that influence driving range:
@@ -26,76 +40,105 @@ The dataset includes specifications of various electric vehicles, with a focus o
 - **Efficiency (Wh/km)** – energy consumption in watt-hours per kilometer; lower values indicate higher efficiency   
 - **Top speed (km/h)** – higher speeds generally consume more energy  
 - **Fast charging capability** – indicates battery and charging performance  
-- **Other performance and design features** – e.g., motor type, drivetrain  
+- **Other performance and design features** – e.g., motor type, drivetrain, acceleration, and dimensions  
 
-Data cleaning and preprocessing steps were applied to ensure quality and consistency.
+Data cleaning and preprocessing steps were applied to ensure quality and consistency across all fields.
 
-The full dataset can be accessed [here](https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025).
+Dataset Source (Kaggle):
+https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025
+
+---
 
 ## Workflow
 The project follows an **end-to-end data science pipeline**:
+
 - Data import and preparation
 - Idempotence checks to ensure reproducibility
 - Exploratory Data Analysis (EDA)
 - Descriptive statistics
 - Data cleaning
-- Graphical analysis (static & interactive charts using Plotly)
+- Graphical analysis (static plots with Matplotlib/Seaborn and interactive charts using Plotly)
 - Correlation analysis and feature importance
 - Machine learning modeling:
   - Linear Regression
-  - Random Forest Regression
+  - Random Forest Regressor
   - K-Nearest Neighbors (KNN)
 - Model evaluation using R², MAE, and MSE
 
-## Visualizations
-Sample visualizations from the project:
+---
 
-**Correlation Heatmap**
+## Visualizations
+
+### Static Plots
+**Missing Values Heatmap**  
+<div align="left">
+  <img src="images/missing_values_heatmap.png" width="50%">
+</div>
+
+**Correlation Heatmap**  
 <div align="left">
   <img src="images/correlation_heatmap_range.png" width="50%">
 </div>
 
-**Top Features Influencing EV Range**  
-![Top Features](images/top_features.png)
+### Interactive Plotly Chart
 
-**Interactive Plot Example (Plotly)**  
-![Range vs Battery Efficiency](images/range_vs_battery_efficiency.png)
+Interactive charts are saved as HTML files. Click the links below to explore them in your browser.
 
-For the interactive version, click [here](images/range_vs_battery_efficiency.html).
+**Range vs Battery Capacity (Efficiency indicated by color)**
+<div align="left">
+  <img src="images/range_vs_battery_efficiency.png" width="50%">
+</div>
+[View Interactive Chart](https://github.com/Jeszl0201/ev-range-analysis/blob/main/images/range_vs_battery_efficiency.html)
+
+**Range Distribution by Drivetrain**
+<div align="left">
+  <img src="images/range_distribution_by_drivetrain.png.png" width="50%">
+</div>
+[View Interactive Chart](https://github.com/Jeszl0201/ev-range-analysis/blob/main/images/range_by_drivetrain.html)
+
+---
 
 ## Machine Learning Models
-- **Linear Regression:** Baseline model to predict EV range  
-- **Random Forest Regression:** Captures non-linear relationships for higher accuracy  
-- **K-Nearest Neighbors Regression:** Alternative model for comparison  
+- **Linear Regression** – baseline model for range prediction  
+- **Random Forest Regressor** – handles non-linear relationships and interactions  
+- **K-Nearest Neighbors** – captures local patterns in the dataset   
 
-Models were evaluated on training and testing sets using metrics such as R², Mean Absolute Error (MAE), and Mean Squared Error (MSE).
+Models were evaluated on training and testing sets using metrics such as **R²**, **Mean Absolute Error (MAE)**, and **Mean Squared Error (MSE)**. Feature importance analysis was also performed to identify the key contributors to driving range.
+
+---
 
 ## How to Run
+
 To reproduce the project locally:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
-Install required packages:
+1. **Clone the repository:**
+```bash
+git clone https://github.com/Jeszl0201/ev-range-analysis.git
+cd ev-range-analysis
+```
 
-bash
-Copy code
+2. Install required packages:
+
+```bash
 pip install -r requirements.txt
-Open the Jupyter Notebook:
+```
 
-bash
-Copy code
-jupyter notebook notebook/your_notebook.ipynb
-Run all cells in order.
+3. Open the Jupyter Notebook:
 
-Results
-Identified the key features that most influence EV driving range.
+```bash
+jupyter notebook notebook/Electric_Car_Specs_2025.ipynb
+```
 
-Built predictive models that estimate range with good accuracy.
+4. Run all cells in order to reproduce the analysis, plots, and results. Make sure the images folder exists for saving figures.
 
-Visualizations provide insights into feature relationships and model performance.
+5. Optional: Interactive Plotly charts are saved as HTML files in the images folder. Open them in a browser to explore interactivity.
 
-Conclusion
+## Results
+- Identified the key features that most influence EV driving range.
+- Built predictive models that estimate range with good accuracy.
+- Visualizations provide insights into feature relationships and model performance.
+
+## Conclusion
 This project demonstrates a complete data science workflow, from data preparation to machine learning modeling. Future enhancements could include testing advanced models, using larger or real-time datasets, or deploying a web application for EV range prediction.
 
 
