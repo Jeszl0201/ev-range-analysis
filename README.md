@@ -90,13 +90,15 @@ Interactive charts are saved as HTML files. Click the links below to explore the
 </div>
 <a href="https://Jeszl0201.github.io/ev-range-analysis/range_distribution_by_drivetrain.html" target="_blank">View Interactive Chart</a>
 
---
+👆 (Open link in new tab)
 
 **Range vs Battery Capacity (Efficiency indicated by color)**
 <div align="left">
   <img src="images/range_vs_battery_efficiency.png" width="50%">
 </div>
 <a href="https://Jeszl0201.github.io/ev-range-analysis/range_vs_battery_efficiency.html" target="_blank">View Interactive Chart</a>
+
+👆 (Open link in new tab)
 
 ---
 
@@ -141,7 +143,17 @@ jupyter notebook notebook/Electric_Car_Specs_2025_GitHub.ipynb
 - Visualizations provide insights into feature relationships and model performance.
 
 ## Conclusion
-This project demonstrates a complete data science workflow, from data preparation and exploratory analysis to machine learning modeling for EV range prediction. Both numeric features (e.g., battery capacity, weight, efficiency metrics) and categorical features (e.g., drivetrain, vehicle type) were analyzed to understand their impact on EV range. For instance, drivetrain plays a notable role: AWD vehicles generally have a lower typical range compared to FWD or RWD due to increased weight and energy consumption.
+This project demonstrates a complete data science workflow, from data preparation and exploratory analysis to machine learning modeling for EV range prediction. The Linear Regression model achieved a near-perfect predictive accuracy (𝐑² = 0.99), confirming that EV range is overwhelmingly a deterministic and predictable metric based on vehicle specifications. 
+
+### Actual vs Predicted EV Range
+<div align="left">
+  <img src="images/actual_vs_predicted_ev_range_linear_regression.png" width="50%">
+</div>
+<a href="https://Jeszl0201.github.io/ev-range-analysis/actual_vs_predicted_ev_range_linear_regression.html" target="_blank">View Interactive Chart</a>
+
+👆 (Open link in new tab)
+
+Both numeric features (e.g., battery capacity, weight, efficiency metrics) and categorical features (e.g., drivetrain, vehicle type) were analyzed to understand their impact on EV range. For instance, drivetrain plays a notable role: AWD vehicles generally have a lower typical range compared to FWD or RWD due to increased weight and energy consumption.
 
 Interestingly, exploratory analysis suggested that features like vehicle model and brand influence EV range. However, in predictive modeling, excluding these categorical features improved the model’s R² score, likely due to high cardinality and added noise. Conversely, features like efficiency, which showed low correlation individually, were critical for model performance, highlighting the difference between descriptive trends and predictive importance.
 
