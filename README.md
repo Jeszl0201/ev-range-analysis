@@ -16,13 +16,16 @@ Predicting electric vehicle (EV) driving range and identifying the key features 
 This capstone project aims to analyze electric vehicle data to determine which features most affect driving range and to build predictive models to estimate range. The project covers the full data science workflow, from data cleaning and exploratory analysis to feature engineering, visualization, and machine learning modeling.
 
 ## Dataset
-The dataset includes specifications of various electric vehicles, such as:
-- Battery capacity
-- Vehicle weight
-- Motor type
-- Other performance and design features  
+The dataset includes specifications of various electric vehicles, with a focus on features that influence driving range:
 
-Data cleaning and preprocessing steps were applied to ensure quality and consistency. Sensitive or large datasets can be provided as samples or replaced with dummy data.
+- **Battery capacity (kWh)** – directly affects maximum driving range  
+- **Top speed (km/h)** – higher speeds generally consume more energy  
+- **Fast charging capability** – indicates battery and charging performance  
+- **Other performance and design features** – e.g., motor type, drivetrain  
+
+Data cleaning and preprocessing steps were applied to ensure quality and consistency.
+
+The full dataset can be accessed [here](https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025)).
 
 ## Workflow
 The project follows an **end-to-end data science pipeline**:
@@ -43,7 +46,7 @@ The project follows an **end-to-end data science pipeline**:
 Sample visualizations from the project:
 
 **Correlation Heatmap**  
-![Correlation Heatmap](images/heatmap.png)
+![Correlation Heatmap](images/correlation_heatmap_range.png)
 
 **Top Features Influencing EV Range**  
 ![Top Features](images/top_features.png)
