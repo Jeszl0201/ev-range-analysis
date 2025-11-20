@@ -2,7 +2,7 @@
 
 Predicting electric vehicle (EV) driving range and identifying the key features that influence it using data analysis and machine learning.
 
-<div align="center">
+<div align="left">
   <img src="images/EV_Car_Image.JPG" width="500">
 </div>
 
@@ -51,7 +51,7 @@ The project follows an **end-to-end data science pipeline**:
 Sample visualizations from the project:
 
 **Correlation Heatmap**
-<div align="center">
+<div align="left">
   <img src="images/correlation_heatmap_range.png" width="50%">
 </div>
 
