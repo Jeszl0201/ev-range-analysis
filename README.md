@@ -128,7 +128,7 @@ pip install -r requirements.txt
 3. Open the Jupyter Notebook:
 
 ```bash
-jupyter notebook notebook/Electric_Car_Specs_2025.ipynb
+jupyter notebook notebook/Electric_Car_Specs_2025_GitHub.ipynb
 ```
 
 4. Run all cells in order to reproduce the analysis, plots, and results. Make sure the images folder exists for saving figures.
