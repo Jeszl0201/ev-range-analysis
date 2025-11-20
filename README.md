@@ -1,6 +1,11 @@
 # EV Driving Range Prediction Capstone
 
 Predicting electric vehicle (EV) driving range and identifying the key features that influence it using data analysis and machine learning.
+
+<div align="center">
+  <img src="images/EV_Car_Image.JPG" width="500">
+</div>
+
 ![EV Car Image](images/EV_Car_Image.JPG)
 
 ## Table of Contents
