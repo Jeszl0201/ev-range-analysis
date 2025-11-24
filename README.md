@@ -130,7 +130,7 @@ pip install -r requirements.txt
 3. Open the Jupyter Notebook:
 
 ```bash
-jupyter notebook notebook/Electric_Car_Specs_2025_GitHub.ipynb
+jupyter notebook notebook/ev_range_analysis_and _prediction_submitted.ipynb
 ```
 
 4. Run all cells in order to reproduce the analysis, plots, and results.
